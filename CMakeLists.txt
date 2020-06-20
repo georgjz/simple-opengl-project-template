@@ -10,5 +10,8 @@ project( opengltemplate VERSION 0.1
 
 add_subdirectory( extern )
 
-add_executable( opengltemplateapp src/main.cpp )
-target_link_libraries( opengltemplateapp glm glfw glad )
+# add_executable( ${PROJECT_NAME} src/main.cpp src/my_functions.cpp )
+add_executable( ${PROJECT_NAME} "" )
+add_subdirectory( src )
+target_include_directories( ${PROJECT_NAME} PUBLIC "include" )
+target_link_libraries( ${PROJECT_NAME} glfw glad glm )
