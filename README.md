@@ -24,7 +24,7 @@ git clone --recurse-submodules https://github.com/georgjz/simple-opengl-project-
 Then create a build directory:
 
 ```bash
-mkdir build
+mkdir build && cd build
 cmake ..
 make
 ```
