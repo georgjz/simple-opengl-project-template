@@ -12,4 +12,4 @@ project( opengltemplate VERSION 0.1
 add_subdirectory( extern )
 
 add_executable( opengltemplateapp src/main.cpp )
-target_link_libraries( opengltemplateapp glm )
+target_link_libraries( opengltemplateapp glm glfw )
