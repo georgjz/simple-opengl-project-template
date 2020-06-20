@@ -18,7 +18,7 @@ To write your own code, you can place your include files in `include`, and your 
 To download it, open a command line and type in:
 
 ```bash
-git clone --recurse-submodules 
+git clone --recurse-submodules https://github.com/georgjz/simple-opengl-project-template.git
 ```
 
 Then create a build directory:
@@ -36,6 +36,10 @@ To update all submodules, use this:
 ```bash
 git submodule update --recursive --remote
 ```
+
+## Notes
+
+* I've only tested it with `make` and `ninja` on Linux as build systems; i.e., I have **not** tested it on either Windows or OSX and their respective build systems.
 
 [1]: https://www.glfw.org
 [2]: https://glm.g-truc.net/0.9.9/index.html
