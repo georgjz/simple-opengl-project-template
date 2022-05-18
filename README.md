@@ -39,7 +39,7 @@ git submodule update --recursive --remote
 
 ## Notes
 
-* I've only tested it with `make` and `ninja` on Linux as build systems; i.e., I have **not** tested it on either Windows or OSX and their respective build systems.
+* I've only tested it with `make` and `ninja` on Linux and Windows as build systems; i.e., I have **not** tested it on ~~either Windows or~~ OSX and their respective build systems.
 
 [1]: https://www.glfw.org
 [2]: https://glm.g-truc.net/0.9.9/index.html
